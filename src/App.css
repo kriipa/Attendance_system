@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;700;800;900&display=swap');
+*{
+  font-family: 'Barlow', sans-serif;
+  /* font-weight: 500; */
+}
+
+.react-calendar button:enabled{
+  border-radius: 50px;
+}
+
+.react-calendar__tile--now {
+  color: rgb(22, 51, 216);
+  background: rgb(61, 162, 187);
+}
+
+.react-calendar__tile--active {
+  background: #006edc !important;
+  color: white;
+  }
+
+.react-calendar__tile--now:enabled:hover, .react-calendar__tile--now:enabled:focus {
+background: rgb(68, 177, 217) !important;
+color: azure;
+}
